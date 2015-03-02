@@ -1,0 +1,34 @@
+﻿<div>
+    <div ng-controller="mailItemController">
+        <table id="details">
+            <tr>
+                <th>Subject:</th>
+                <td id="subject">{{subject}}</td>
+            </tr>
+            <tr>
+                <th>From:</th>
+                <!--Bind to the sender of the email and display extra info when the value is clicked-->
+                <td id="from" ng-click="fromClick()">{{from}}</td>
+            </tr>
+        </table>
+        <br />
+        <button ng-disabled="loaded" ng-click="getOrders()">Fetch</button><div>{{message}}</div>
+        <br />
+        <table id="orders" ng-show="loaded">
+            <thead>
+                <tr>
+                    <th>Order#</th>
+                    <th>Date</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="order in orders">
+                    <td>{{order.OrderNumber}}</td>
+                    <td>{{order.OrderDate | date}}</td>
+                    <td>{{order.OrderValue | number}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

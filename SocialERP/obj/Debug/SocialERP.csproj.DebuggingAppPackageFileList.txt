@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\SocialERPManifest.xml
+C:\Users\ricustan\Source\Repos\MyGit\SocialERP\SocialERP\bin\Debug\SocialERP.debugapp

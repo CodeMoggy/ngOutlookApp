@@ -1,0 +1,2 @@
+bin\Debug\app.publish\OfficeAppManifests\SocialERPManifest.xml
+C:\Users\ricustan\Source\Repos\SandBox-RC-O365\O365\Contextual\SocialERP\SocialERP\bin\Debug\app.publish\SocialERP.app

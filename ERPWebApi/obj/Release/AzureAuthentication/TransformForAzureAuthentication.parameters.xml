@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AD_ClientID" description="AD Client Application ID" defaultValue="97afb0f0-3261-46a3-906b-8b1ba5b0ae0d" tags="AD_ClientAPPID">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ricustan\\Source\\Repos\\SandBox-RC-O365\\O365\\Contextual\\SocialERP\\ERPWebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ida:ClientID']/@value" />
+  </parameter>
+  <parameter name="AD_WebAPI_Audience" description="AD Web API Audience" defaultValue="https://moggyinc.onmicrosoft.com/SocialERPWebApi" tags="AD_WebAPI_Audience">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ricustan\\Source\\Repos\\SandBox-RC-O365\\O365\\Contextual\\SocialERP\\ERPWebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ida:Audience']/@value" />
+  </parameter>
+</parameters>
